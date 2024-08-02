@@ -35,8 +35,6 @@ h3 {
   margin-top: 10px;
 }
 
- 
-
 .charactersImage {
   border-radius: 15px;
   width: 60%;
@@ -46,4 +44,39 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.character {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characterBackground {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+}
+
+.characterInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  line-height: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.characterImage {
+  width: 75%;
+  border-radius: 15px;
 }
